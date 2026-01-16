@@ -1,5 +1,5 @@
 {
-  "name": "DermaCare AI",
+  "name": "Lume Skin",
   "description": "A comprehensive dermatology platform featuring AI skin analysis, product marketplace, consultation booking, and multi-user role management.",
   "requestFramePermissions": [
     "camera"

@@ -98,7 +98,7 @@ const PatientDashboard: React.FC<PatientDashboardProps> = ({ user, cart, setCart
     <div className="flex-1 flex flex-col h-screen bg-white">
       <header className="bg-white px-6 py-5 flex justify-between items-center shrink-0 border-b border-gray-50">
         <div>
-          <h2 className="text-xl font-extrabold text-pink-600">DermaCare</h2>
+          <h2 className="text-xl font-extrabold text-pink-600">Lume Skin</h2>
           <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Premium Skincare AI</p>
         </div>
         <button onClick={onLogout} className="bg-gray-50 p-2 rounded-full hover:bg-pink-50 transition-colors">
@@ -254,7 +254,7 @@ const PatientDashboard: React.FC<PatientDashboardProps> = ({ user, cart, setCart
               {chatMessages.length === 0 && (
                 <div className="text-center space-y-4 mt-20">
                   <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-sm">🤖</div>
-                  <p className="text-gray-400 text-xs font-bold uppercase tracking-widest">Assistant Online</p>
+                  <p className="text-gray-400 text-xs font-bold uppercase tracking-widest">LumeBot Online</p>
                 </div>
               )}
               {chatMessages.map((msg, i) => (
@@ -270,7 +270,7 @@ const PatientDashboard: React.FC<PatientDashboardProps> = ({ user, cart, setCart
                 value={inputMsg}
                 onChange={(e) => setInputMsg(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleChat()}
-                placeholder="Ask DermaBot..."
+                placeholder="Ask LumeBot..."
                 className="flex-1 border-none bg-gray-50 rounded-2xl px-5 text-sm focus:ring-2 focus:ring-pink-400 transition-all"
               />
               <button onClick={handleChat} className="bg-gray-900 text-white w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg active:scale-90 transition-all">

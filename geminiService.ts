@@ -39,7 +39,7 @@ export const dermaChat = async (message: string, history: { role: 'user' | 'mode
   const chat = ai.chats.create({
     model: 'gemini-3-flash-preview',
     config: {
-      systemInstruction: "You are DermaBot, a helpful dermatology assistant. Provide advice on skin care, products, and general health. Always advise seeing a doctor for serious concerns."
+      systemInstruction: "You are LumeBot, a helpful dermatology assistant for the Lume Skin app. Provide advice on skin care, products, and general health. Always advise seeing a doctor for serious concerns."
     }
   });
   

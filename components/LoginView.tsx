@@ -48,7 +48,7 @@ const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
     <div className="min-h-screen bg-baby-pink flex flex-col justify-center px-8 py-12 max-w-md mx-auto">
       <div className="bg-white rounded-3xl shadow-xl p-8 border border-white">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-pink-600">DermaCare AI</h1>
+          <h1 className="text-3xl font-bold text-pink-600">Lume Skin</h1>
           <p className="text-gray-400 mt-1 text-sm">{isSignUp ? 'Create your medical account' : 'Welcome back to health'}</p>
         </div>
 
